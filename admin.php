@@ -42,8 +42,6 @@ $db->close();
 		<head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <meta name="description" content="Custom Login Form Styling with CSS3" />
-        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
-        <meta name="author" content="Codrops" />
 <link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 	<style>
@@ -191,13 +189,16 @@ h1 {
 	<title>
 Faculty page
 	</title>
+	  <link href="ss.png" rel="icon">
+  <link href="ss.png" rel="apple-touch-icon">
+
 		</head>
  <body style="background-image:url(bg.jpg)">
  <h1><center>ADMIN LOGIN</center> </h1>
- 	<form action= "check_the_adimin.php" method="POST"  class="form-1"> 
+ 	<form action= "firstdasari.php" method="POST"  class="form-1"> 
 	Email:
 	<p class="field">
-	<input type="text" email="name" placeholder="Username or email" value="<?php echo  $email ; ?>">
+	<input type="text" name="name" placeholder="Username" value="<?php echo  $email ; ?>">
 	<i class="fa fa-address-book"></i>
 	</p> 
 	<span class="error"><?php echo $ivemail ; ?></span>
